@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Comandos en Git</title>
+    <!--link bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="IMG/icono.png">
+</head>
+
+<body>
+    <!--Nav de menu-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> <!--clases bootstrap-->
+        <div class="container">
+            <a href="#" class="navbar-brand"> <span class="text-primary">Comandos</span>git
+            </a><!--Sirve para darle color al ...-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarS"
+                aria-controls="navbarS" aria-expanded="false" aria-label="Toggle navegation">
+                <span class="navbar-toggler-icon"></span><!--barra hamburguesa-->
+            </button>
+            <div class="collapse navbar-collapse" id="navbarS">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#quees" class="nav-link">¿Que es?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#características" class="nav-link">Comandos</a>
+                    </li>
+                    <!-- Componentes Menu-->
+
+                </ul>
+            </div>
+        </div>
+
+    </nav><!-- Termina nav de menu-->
+    <!-- Carrusel imagenes, rayitas-->
+    <div id="carouselE" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1">
+            </button>
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="1" aria-current="true"
+                aria-label="Slide 2">
+            </button>
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="2" aria-current="true"
+                aria-label="Slide 3">
+            </button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="IMG/img6.png" class="d-block w-100"
+                    alt="Imagen de analisis factorial"><!--img carrusel 1-->
+                <div class="carousel-caption">
+                    <h5>COMANDOS EN GIT</h5>
+                    <a href="https://www.atlassian.com/es/git/tutorials/what-is-git" class="btn btn-primary mt-3">Mas
+                        informacion</a><!--Mas informacion en carrusel, esta activo-->
+
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                <img src="IMG/img4.png" class="d-block w-100" alt="Imagen de analisis factorial"><!--img carrusel 2-->
+                <div class="carousel-caption">
+                    <h5>COMANDOS EN GIT</h5>
+
+                    <a href="https://www.atlassian.com/es/git/tutorials/what-is-git" class="btn btn-primary">Mas
+                        informacion</a><!--Mas informacion en carrusel-->
+
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                <img src="IMG/img5.png" class="d-block w-100"
+                    alt="Imagen de analisis factorial"><!--img carrusel 3-->
+                <div class="carousel-caption">
+                    <h5>COMANDOS EN GIT</h5>
+                    <a href="https://www.atlassian.com/es/git/tutorials/what-is-git" class="btn btn-primary mt-3">Mas
+                        informacion</a><!--Mas informacion en carrusel-->
+
+                </div>
+
+            </div>
+
+        </div>
+        <!--Botones r y l en carrusel-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselE" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselE" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+
+        </button>
+
+    </div><!--Termino de carrusel-->
+
+    <section class="about section-padding" id="quees">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-12"><!--clase responsiva-->
+                    <div class="about-img">
+                        <img src="img/about.avif" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                    <div class="about-text text-white">
+                        <h2>GIT <br> ¿QUE ES?</h2>
+                        <p>Hoy en día, Git es, con diferencia, el sistema de control de versiones moderno más utilizado
+                            del mundo. Git es un proyecto de código abierto maduro y con un mantenimiento activo que
+                            desarrolló originalmente Linus Torvalds, el famoso creador del kernel del sistema operativo
+                            Linux, en 2005. Un asombroso número de proyectos de software dependen de Git para el control
+                            de versiones, incluidos proyectos comerciales y de código abierto. Los desarrolladores que
+                            han trabajado con Git cuentan con una buena representación en la base de talentos
+                            disponibles para el desarrollo de software, y este sistema funciona a la perfección en una
+                            amplia variedad de sistemas operativos e IDE (entornos de desarrollo integrados).
+                        </p>
+                        <a href="https://www.atlassian.com/es/git/tutorials/what-is-git" class="btn btn-primary"> Mas
+                            informacion</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="services section-padding" id="características">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-header text-center text-white pb-5">
+                    <h2>COMANDOS</h2>
+                    <p>UWU <br>
+                        Algunos del los comandos son:
+                    </p>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-white text-center bg-dark pb-2">
+                    <div class="card-body">
+                        <i class="bi bi-laptop"></i>
+                        <h3 class="card-title">GIT CLEAN</h3>
+                        <p class="lead">
+                            Elimina los archivos sin seguimiento de tu directorio de trabajo. Es la contraparte lógica
+                            de git reset, que normalmente solo funciona en archivos con seguimiento.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-white text-center bg-dark pb-2">
+                    <div class="card-body">
+                        <i class="bi bi-wifi"></i>
+                        <h3 class="card-title">GIT CLONE</h3>
+                        <p class="lead">Crea una copia de un repositorio de Git existente. La clonación es la forma más
+                            habitual de que los desarrolladores obtengan una copia de trabajo de un repositorio central.
+                        </p>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-white text-center bg-dark pb-2">
+                    <div class="card-body">
+                        <i class="bi bi-tv"></i> <!--Cambia icono-->
+                        <h3 class="card-title">GIT COMMIT</h3>
+                        <p class="lead">Confirma la instantánea preparada en el historial del proyecto. En combinación
+                            con git add, define el flujo de trabajo básico de todos los usuarios de Git.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        </div>
+
+    </section>
+    <section class="services section-padding" id="características">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-laptop"></i>
+                            <h3 class="card-title">GIT COMMIT -AMEND</h3>
+                            <p class="lead">
+                            </p>
+                            Pasar la marca --amend a git commit permite modificar la confirmación más reciente. Es muy
+                            práctico si olvidas preparar un archivo u omites información importante en el mensaje de
+                            confirmación.</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-wifi"></i>
+                            <h3 class="card-title">GIT CONFIG</h3>
+                            <p class="lead">Este comando va bien para establecer las opciones de configuración para
+                                instalar Git. Normalmente, solo es necesario usarlo inmediatamente después de instalar
+                                Git en un nuevo equipo de desarrollo.
+                            </p>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-tv"></i> <!--Cambia icono-->
+                            <h3 class="card-title">GIT FETCH</h3>
+                            <p class="lead">Con este comando, se descarga una rama de otro repositorio junto con todas
+                                sus confirmaciones y archivos asociados. Sin embargo, no intenta integrar nada en el
+                                repositorio local. Esto te permite inspeccionar los cambios antes de fusionarlos en tu
+                                proyecto.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <section class="services section-padding" id="características">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-laptop"></i>
+                            <h3 class="card-title">GIT ADD</h3>
+                            <p class="lead">
+                                Mueve los cambios del directorio de trabajo al área del entorno de ensayo. Así puedes
+                                preparar una instantánea antes de confirmar en el historial oficial.</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-wifi"></i>
+                            <h3 class="card-title">GIT BRANCH</h3>
+                            <p class="lead">Este comando es tu herramienta de administración de ramas de uso general.
+                                Permite crear entornos de desarrollo aislados en un solo repositorio.
+                            </p>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-tv"></i> <!--Cambia icono-->
+                            <h3 class="card-title">GIT CHECKOUT</h3>
+                            <p class="lead">Además de extraer las confirmaciones y las revisiones de archivos antiguas,
+                                git checkout también sirve para navegar por las ramas existentes. Combinado con los
+                                comandos básicos de Git, es una forma de trabajar en una línea de desarrollo concreta.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
